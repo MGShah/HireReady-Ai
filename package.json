@@ -1,0 +1,16 @@
+{
+  "name": "hireready-ai",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npx concurrently -n server,client -c cyan,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "check": "npm run typecheck -ws --if-present && npm run test -ws --if-present && npm run build -ws --if-present",
+    "build:android": "npm run build:android -w client"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.13.32"
+  }
+}

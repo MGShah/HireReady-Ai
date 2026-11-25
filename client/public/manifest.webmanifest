@@ -1,0 +1,53 @@
+{
+  "name": "hireReady-AI — When Talent Meets Intelligence",
+  "short_name": "hireReady-AI",
+  "description": "When Talent Meets Intelligence. Precision AI career acceleration: ATS resume builder, realistic mock interview simulator, and skill gap roadmaps.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "categories": ["business", "productivity", "education"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Resume Builder",
+      "url": "/resume",
+      "description": "Create and edit your ATS resume",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Interview Lab",
+      "url": "/interview",
+      "description": "Practice role-specific interview checkpoints",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Skill Gaps",
+      "url": "/skills",
+      "description": "Analyze career match and learning roadmaps",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Applications",
+      "url": "/applications",
+      "description": "Track your job opportunity pipeline",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    }
+  ]
+}
